@@ -9,7 +9,7 @@ def predict_loan_status(credit_score, loan_percent_income, previous_loan_default
         and loan_percent_income <= 0.40
         and previous_loan_defaults == "No"
     ):
-        return 1
+        return 0
     else:
         return 0
 
